@@ -8,27 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ConsoleApp1 {
-    /// <summary>
-    /// 1)This class describes a tree node
-    /// 2)Assumes a single parent
-    /// 3)It can be extended to add new functionality
-    /// 4)It is type safe
-    /// 5)It's methods cannot be extended because it's not virtual
-    /// 6)If we want to add information, we can do it either by subclassing or by 
-    /// incorporating a generic type
-    /// 7)If we want to add labeling, we can add a string or a type generating labels
-    /// 
-    /// 1)We want to investigate what are the benefits of using interfaces 
-    /// for the node classes 
-    /// a)Remove dependencies. 
-    /// b)Improves encapsulation
-    /// c)An interface can accept any class implementing the interface (typesafety concerns
-    /// can be solved using type paramaters(??generics??)) 
-    /// d)Interfaces can support multiple inheritence 
-    /// 2)We want to investigate wether it is a possibilty to unite these three implementations
-    /// so as to create a prototype class that would work for all three cases
-    /// </summary>
-    /// 
+    
 
 
     interface CreateDiGraphTypes    //Method that creates a directed graph
